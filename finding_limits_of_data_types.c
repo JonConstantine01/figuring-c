@@ -26,12 +26,31 @@ int main(void)
     printf("SHRT_MAX=%d\n", SHRT_MAX);
     printf("USHRT_MAX=%d\n", USHRT_MAX);
 
-    /**/
+    /*Dealing with signed int min and max values*/
     printf("INT_MIN=%d\n", INT_MIN);
     printf("INT_MAX=%d\n", INT_MAX);
+    printf("UINT_MAX=%d\n", UINT_MAX);
 
+    /*Dealing with Long min and max ld -> l means long decimal and lu -> long unsigned int*/
+    printf("LONG_MIN=%ld\n", LONG_MIN);
+    printf("LONG_MAX=%ld\n", LONG_MAX);
+    printf("ULONG_MAX=%lu\n", ULONG_MAX);
 
+    /*smalles postive normalized value, %e -> to Prints a floating-point number in scientific notation (e.g., 1.175494e-38).*/
+    printf("FLT_MIN=%e\n", FLT_MIN);
+    printf("FLT_MAX=%e\n", FLT_MAX);
 
+   /*Same as FLT_MIN, but for double*/
+    printf("DBL_MIN=%e\n", DBL_MIN);
+    printf("DBL_MAX=%e\n", DBL_MAX);
 
+    /*Smallest positive normalized long double value. long double can have more precision than double depending on the compiler/platform.*/
+    printf("LDBL_MIN=%e\n", LDBL_MIN);
+    printf("LDBL_MAX=%e\n", LDBL_MAX);
+
+    /*Number of decimal digits of precision for float, double, long double*/
+    printf("FLT_DIG=%d\n", FLT_DIG);
+    printf("DBL_DIG=%d\n", DBL_DIG);
+    printf("LDBL_DIG=%d\n", LDBL_DIG);
 
 }
