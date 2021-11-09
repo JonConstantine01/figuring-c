@@ -1,6 +1,5 @@
 // Area of circle -
 //     Use π × r × r. Use float or double.
-//    $env:GIT_AUTHOR_DATE="2021-11-09T14:05:19";$env:GIT_COMMITTER_DATE="2021-11-09T14:05:19"
 
 #include<stdio.h>
 #define PI 3.14
